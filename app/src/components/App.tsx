@@ -4,7 +4,7 @@ import {Root} from "./styles";
 const App: React.FC = () => {
   return (
     <Root>
-      
+
     </Root>
   );
 }
