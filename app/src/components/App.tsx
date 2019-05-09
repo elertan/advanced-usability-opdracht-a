@@ -1,18 +1,24 @@
 import React from 'react';
-import {Root} from "./styles";
+import {Navbar, NavbarTitle, NavItem, NavItemsContainer, Root} from "./styles";
 import {Route, Router} from "react-router";
-import { createBrowserHistory } from 'history'
+import {createBrowserHistory} from 'history'
 import IndexScreen from "../screens/Index";
 
 const history = createBrowserHistory();
 
 const App: React.FC = () => {
   return (
-    <Root>
-      <Router history={history}>
-        <Route exact path="/" component={IndexScreen} />
-      </Router>
-    </Root>
+    <Router history={history}>
+      <Root>
+        <Navbar>
+          <NavbarTitle>Advanced Usability: Opdracht A</NavbarTitle>
+          <NavItemsContainer>
+            <NavItem to="/">Home</NavItem>
+          </NavItemsContainer>
+        </Navbar>
+        <Route exact path="/" component={IndexScreen}/>
+      </Root>
+    </Router>
   );
 };
 

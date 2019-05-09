@@ -4,7 +4,6 @@ import {Root} from "./styles";
 const IndexScreen: React.FC = () => {
   return (
     <Root>
-      index
     </Root>
   )
 };
