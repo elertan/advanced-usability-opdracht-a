@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/advanced-usability-opdracht-a/static/css/main.19393e92.chunk.css",
-    "main.js": "/advanced-usability-opdracht-a/static/js/main.334ca79c.chunk.js",
-    "main.js.map": "/advanced-usability-opdracht-a/static/js/main.334ca79c.chunk.js.map",
+    "main.js": "/advanced-usability-opdracht-a/static/js/main.4f3db277.chunk.js",
+    "main.js.map": "/advanced-usability-opdracht-a/static/js/main.4f3db277.chunk.js.map",
     "runtime~main.js": "/advanced-usability-opdracht-a/static/js/runtime~main.84098b79.js",
     "runtime~main.js.map": "/advanced-usability-opdracht-a/static/js/runtime~main.84098b79.js.map",
-    "static/js/2.b41502e9.chunk.js": "/advanced-usability-opdracht-a/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/advanced-usability-opdracht-a/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.2dc3c79b.chunk.js": "/advanced-usability-opdracht-a/static/js/2.2dc3c79b.chunk.js",
+    "static/js/2.2dc3c79b.chunk.js.map": "/advanced-usability-opdracht-a/static/js/2.2dc3c79b.chunk.js.map",
     "index.html": "/advanced-usability-opdracht-a/index.html",
-    "precache-manifest.89a03c1f2a9e5c6d9fff69f6df610856.js": "/advanced-usability-opdracht-a/precache-manifest.89a03c1f2a9e5c6d9fff69f6df610856.js",
-    "service-worker.js": "/advanced-usability-opdracht-a/service-worker.js",
-    "static/css/main.19393e92.chunk.css.map": "/advanced-usability-opdracht-a/static/css/main.19393e92.chunk.css.map",
-    "static/media/logo.svg": "/advanced-usability-opdracht-a/static/media/logo.5d5d9eef.svg"
+    "precache-manifest.b7263686c1fb6768e43bafcd54572f05.js": "/advanced-usability-opdracht-a/precache-manifest.b7263686c1fb6768e43bafcd54572f05.js",
+    "service-worker.js": "/advanced-usability-opdracht-a/service-worker.js"
   }
 }
