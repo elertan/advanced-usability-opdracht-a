@@ -8,4 +8,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+    background-color: #8ed2ff;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
 }
