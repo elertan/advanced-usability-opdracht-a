@@ -19,7 +19,7 @@ export const NavbarTitle = styled.h3`
 `;
 
 export const NavItemsContainer = styled.div`
-  margin: 0px 20px;
+  margin: 0 20px;
 `;
 
 export const NavItem = styled(NavLink)`
