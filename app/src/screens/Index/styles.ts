@@ -35,7 +35,8 @@ export const EyeItem = styled(BaseItem)`
 `;
 
 export const BrainItem = styled(BaseItem)`
-  background-color: green;
+  //background-color: green;
+  background-color: white;
 `;
 
 export const VoiceItem = styled(BaseItem)`
