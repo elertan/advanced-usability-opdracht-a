@@ -1,9 +1,9 @@
 import React from 'react';
-import {Navbar, NavbarTitle, NavItem, NavItemsContainer, Root} from "./styles";
 import {Route, Router} from "react-router";
 import {createBrowserHistory} from 'history'
 import IndexScreen from "../screens/Index";
-import eyeImgSrc from "../assets/images/eye.png";
+import OgenDetail from "../screens/Detail/OgenDetail";
+import {CustomSwitch, Root} from "./styles";
 
 const history = createBrowserHistory();
 
@@ -11,13 +11,14 @@ const App: React.FC = () => {
   return (
     <Router history={history}>
       <Root>
-        {/*<Navbar>*/}
-        {/*  <NavbarTitle>Advanced Usability: Opdracht A</NavbarTitle>*/}
-        {/*  <NavItemsContainer>*/}
-        {/*    <NavItem to="/">Home</NavItem>*/}
-        {/*  </NavItemsContainer>*/}
-        {/*</Navbar>*/}
-        <Route exact path="/" component={IndexScreen}/>
+        <CustomSwitch>
+          <Route exact path="/" component={IndexScreen}/>
+          <Route exact path="/ogen" component={OgenDetail}/>
+          <Route exact path="/hersenen" component={IndexScreen}/>
+          <Route exact path="/stem" component={IndexScreen}/>
+          <Route exact path="/aanraking" component={IndexScreen}/>
+          <Route exact path="/beweging" component={IndexScreen}/>
+        </CustomSwitch>
       </Root>
     </Router>
   );

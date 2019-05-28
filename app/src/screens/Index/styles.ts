@@ -4,6 +4,7 @@ export const Root = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: #cbcbcb;
 `;
 
 export const Row = styled.div`
@@ -36,6 +37,7 @@ const BaseItem = styled.div<IBaseItemProps>`
   }
   
   p {
+    font-family: 'Playfair Display', serif;
     font-size: 72px;
     text-transform: capitalize;
   }

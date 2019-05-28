@@ -25,7 +25,7 @@ const IndexScreen: React.FC<IProps> = (props) => {
   }, [props.history]);
 
   const handleTouchItemClick = useCallback(() => {
-    props.history.push("/touch");
+    props.history.push("/aanraking");
   }, [props.history]);
 
   const handleMotionItemClick = useCallback(() => {
@@ -42,24 +42,24 @@ const IndexScreen: React.FC<IProps> = (props) => {
           </EyeItem>
         </Item>
         <Item>
-          <BrainItem backgroundImageSrc={brainImageSrc}>
+          <BrainItem backgroundImageSrc={brainImageSrc} onClick={handleBrainItemClick}>
             <p>HERSENEN</p>
           </BrainItem>
         </Item>
       </Row>
       <Row>
         <Item>
-          <VoiceItem backgroundImageSrc={voiceImageSrc}>
+          <VoiceItem backgroundImageSrc={voiceImageSrc} onClick={handleVoiceItemClick}>
             <p>STEM</p>
           </VoiceItem>
         </Item>
         <Item>
-          <TouchItem backgroundImageSrc={touchImageSrc}>
+          <TouchItem backgroundImageSrc={touchImageSrc} onClick={handleTouchItemClick}>
             <p>AANRAKING</p>
           </TouchItem>
         </Item>
         <Item>
-          <MotionItem backgroundImageSrc={motionImageSrc}>
+          <MotionItem backgroundImageSrc={motionImageSrc} onClick={handleMotionItemClick}>
             <p>BEWEGING</p>
           </MotionItem>
         </Item>
