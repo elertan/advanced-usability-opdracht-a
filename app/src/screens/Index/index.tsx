@@ -1,10 +1,10 @@
 import * as React from "react";
-import {BrainItem, EyeItem, GestureItem, Item, MotionItem, Root, Row, VoiceItem} from "./styles";
+import {BrainItem, EyeItem, TouchItem, Item, MotionItem, Root, Row, VoiceItem} from "./styles";
 
 import eyeImageSrc from "../../assets/images/eye.png";
 import motionImageSrc from "../../assets/images/motion.jpg";
 import brainImageSrc from "../../assets/images/brain.jpg";
-import gestureImageSrc from "../../assets/images/gesture.jpg";
+import touchImageSrc from "../../assets/images/touch.jpeg";
 import voiceImageSrc from "../../assets/images/voice.jpg";
 
 const IndexScreen: React.FC = () => {
@@ -12,21 +12,21 @@ const IndexScreen: React.FC = () => {
     <Root>
       <Row>
         <Item>
-          <EyeItem style={{ backgroundImage: `url(${eyeImageSrc})` }}></EyeItem>
+          <EyeItem backgroundImageSrc={eyeImageSrc} />
         </Item>
         <Item>
-          <BrainItem style={{ backgroundImage: `url(${brainImageSrc})` }}></BrainItem>
+          <BrainItem backgroundImageSrc={brainImageSrc} />
         </Item>
       </Row>
       <Row>
         <Item>
-          <VoiceItem style={{ backgroundImage: `url(${voiceImageSrc})` }}></VoiceItem>
+          <VoiceItem backgroundImageSrc={voiceImageSrc} />
         </Item>
         <Item>
-          <GestureItem style={{ backgroundImage: `url(${gestureImageSrc})` }}></GestureItem>
+          <TouchItem backgroundImageSrc={touchImageSrc} />
         </Item>
         <Item>
-          <MotionItem style={{ backgroundImage: `url(${motionImageSrc})` }}></MotionItem>
+          <MotionItem backgroundImageSrc={motionImageSrc} />
         </Item>
       </Row>
     </Root>
