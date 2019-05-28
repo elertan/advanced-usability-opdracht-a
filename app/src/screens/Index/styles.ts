@@ -11,21 +11,33 @@ export const Row = styled.div`
   display: flex;
 `;
 
-const BaseItem = styled.div<{ backgroundImageSrc: string }>`
+interface IBaseItemProps {
+  backgroundImageSrc: string;
+}
+
+const BaseItem = styled.div<IBaseItemProps>`
   flex: 1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   ${props => css`
-    linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) ), url(${props.backgroundImageSrc});
+    background-image: url(${props.backgroundImageSrc});
   `}
-  transition: transform 0.3s ease-in-out;
+  opacity: 0.4;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
   &:hover {
     transform: scale(1.2);
-    ${props => css`
-      linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${props.backgroundImageSrc});
-    `}
+    opacity: 1;
+  }
+  
+  p {
+    font-size: 72px;
+    text-transform: capitalize;
   }
 `;
 
@@ -36,23 +48,16 @@ export const Item = styled.div`
 `;
 
 export const EyeItem = styled(BaseItem)`
-  //background-color: red;
 `;
 
 export const BrainItem = styled(BaseItem)`
-  //background-color: green;
-  background-color: white;
 `;
 
 export const VoiceItem = styled(BaseItem)`
-  background-color: blue;
 `;
 
 export const TouchItem = styled(BaseItem)`
-  background-color: yellow;
 `;
 
-
 export const MotionItem = styled(BaseItem)`
-  background-color: purple;
 `;
