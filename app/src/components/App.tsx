@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Router} from "react-router";
+import {Route} from "react-router";
 import {createBrowserHistory} from 'history'
 import IndexScreen from "../screens/Index";
 import OgenDetail from "../screens/Detail/OgenDetail";
@@ -8,12 +8,13 @@ import HersenenDetail from "../screens/Detail/HersenenDetail";
 import StemDetail from "../screens/Detail/StemDetail";
 import AanrakingDetail from "../screens/Detail/AanrakingDetail";
 import BewegingDetail from "../screens/Detail/BewegingDetail";
+import {HashRouter} from "react-router-dom";
 
-const history = createBrowserHistory();
+// const history = createBrowserHistory();
 
 const App: React.FC = () => {
   return (
-    <Router history={history}>
+    <HashRouter>
       <Root>
         <CustomSwitch>
           <Route exact path="/" component={IndexScreen}/>
@@ -24,7 +25,7 @@ const App: React.FC = () => {
           <Route exact path="/beweging" component={BewegingDetail}/>
         </CustomSwitch>
       </Root>
-    </Router>
+    </HashRouter>
   );
 };
 
