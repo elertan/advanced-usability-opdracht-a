@@ -14,7 +14,7 @@ const CustomSwitchComp: React.FC = (props) => {
       atEnter={{ opacity: 0 }}
       atLeave={{ opacity: 0 }}
       atActive={{ opacity: 1 }}
-
+      // runOnMount
       {...props}
     />
   );

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImageSrc from "../../../assets/images/eye.png";
+import backgroundImageSrc from "../../../assets/images/touch.jpeg";
 
 export const Root = styled.div`
   background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ), url(${backgroundImageSrc});

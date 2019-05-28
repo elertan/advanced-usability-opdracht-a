@@ -4,6 +4,10 @@ import {createBrowserHistory} from 'history'
 import IndexScreen from "../screens/Index";
 import OgenDetail from "../screens/Detail/OgenDetail";
 import {CustomSwitch, Root} from "./styles";
+import HersenenDetail from "../screens/Detail/HersenenDetail";
+import StemDetail from "../screens/Detail/StemDetail";
+import AanrakingDetail from "../screens/Detail/AanrakingDetail";
+import BewegingDetail from "../screens/Detail/BewegingDetail";
 
 const history = createBrowserHistory();
 
@@ -14,10 +18,10 @@ const App: React.FC = () => {
         <CustomSwitch>
           <Route exact path="/" component={IndexScreen}/>
           <Route exact path="/ogen" component={OgenDetail}/>
-          <Route exact path="/hersenen" component={IndexScreen}/>
-          <Route exact path="/stem" component={IndexScreen}/>
-          <Route exact path="/aanraking" component={IndexScreen}/>
-          <Route exact path="/beweging" component={IndexScreen}/>
+          <Route exact path="/hersenen" component={HersenenDetail}/>
+          <Route exact path="/stem" component={StemDetail}/>
+          <Route exact path="/aanraking" component={AanrakingDetail}/>
+          <Route exact path="/beweging" component={BewegingDetail}/>
         </CustomSwitch>
       </Root>
     </Router>
