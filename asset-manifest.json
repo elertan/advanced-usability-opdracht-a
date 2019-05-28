@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/advanced-usability-opdracht-a/static/js/main.39a37cac.chunk.js",
-    "main.js.map": "/advanced-usability-opdracht-a/static/js/main.39a37cac.chunk.js.map",
+    "main.js": "/advanced-usability-opdracht-a/static/js/main.2fd29854.chunk.js",
+    "main.js.map": "/advanced-usability-opdracht-a/static/js/main.2fd29854.chunk.js.map",
     "runtime~main.js": "/advanced-usability-opdracht-a/static/js/runtime~main.84098b79.js",
     "runtime~main.js.map": "/advanced-usability-opdracht-a/static/js/runtime~main.84098b79.js.map",
-    "static/js/2.1b6e64a8.chunk.js": "/advanced-usability-opdracht-a/static/js/2.1b6e64a8.chunk.js",
-    "static/js/2.1b6e64a8.chunk.js.map": "/advanced-usability-opdracht-a/static/js/2.1b6e64a8.chunk.js.map",
+    "static/js/2.10ce8749.chunk.js": "/advanced-usability-opdracht-a/static/js/2.10ce8749.chunk.js",
+    "static/js/2.10ce8749.chunk.js.map": "/advanced-usability-opdracht-a/static/js/2.10ce8749.chunk.js.map",
     "index.html": "/advanced-usability-opdracht-a/index.html",
-    "precache-manifest.23f937ec8e4203d589c58b4e4dfa09c6.js": "/advanced-usability-opdracht-a/precache-manifest.23f937ec8e4203d589c58b4e4dfa09c6.js",
+    "precache-manifest.f4efd53d1d38b51c74484a084b89d9e4.js": "/advanced-usability-opdracht-a/precache-manifest.f4efd53d1d38b51c74484a084b89d9e4.js",
     "service-worker.js": "/advanced-usability-opdracht-a/service-worker.js",
     "static/media/brain.jpg": "/advanced-usability-opdracht-a/static/media/brain.047bf014.jpg",
     "static/media/eye.png": "/advanced-usability-opdracht-a/static/media/eye.c0d3a36b.png",
-    "static/media/gesture.jpg": "/advanced-usability-opdracht-a/static/media/gesture.478cd944.jpg",
     "static/media/motion.jpg": "/advanced-usability-opdracht-a/static/media/motion.32712e19.jpg",
+    "static/media/touch.jpeg": "/advanced-usability-opdracht-a/static/media/touch.18b9ee5c.jpeg",
     "static/media/voice.jpg": "/advanced-usability-opdracht-a/static/media/voice.d97e36b7.jpg"
   }
 }

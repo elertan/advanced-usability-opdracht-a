@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "380bc68e23014ce0af9effc084c6ff05",
+    "revision": "fe3e8c4bfafddb4bbd0f47bcaea29d93",
     "url": "/advanced-usability-opdracht-a/index.html"
   },
   {
-    "revision": "f36c5e1143e6c9badbea",
-    "url": "/advanced-usability-opdracht-a/static/js/2.1b6e64a8.chunk.js"
+    "revision": "ad8cbf3962c4464da6cb",
+    "url": "/advanced-usability-opdracht-a/static/js/2.10ce8749.chunk.js"
   },
   {
-    "revision": "d0aae7267c74bb3ea58a",
-    "url": "/advanced-usability-opdracht-a/static/js/main.39a37cac.chunk.js"
+    "revision": "e5e21ede2cf308dc374f",
+    "url": "/advanced-usability-opdracht-a/static/js/main.2fd29854.chunk.js"
   },
   {
     "revision": "b4f345e1345ac36b7500",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advanced-usability-opdracht-a/static/media/eye.c0d3a36b.png"
   },
   {
-    "revision": "478cd9449bfdd4fad3f77c19a97fa10e",
-    "url": "/advanced-usability-opdracht-a/static/media/gesture.478cd944.jpg"
-  },
-  {
     "revision": "32712e197992e036cf6ccbe1ff8b5f73",
     "url": "/advanced-usability-opdracht-a/static/media/motion.32712e19.jpg"
+  },
+  {
+    "revision": "18b9ee5c2b6ced3aed4e5e9ef63b57d6",
+    "url": "/advanced-usability-opdracht-a/static/media/touch.18b9ee5c.jpeg"
   },
   {
     "revision": "d97e36b7eb5b0e3012c4343237f95e71",
