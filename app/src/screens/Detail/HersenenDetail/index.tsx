@@ -3,6 +3,17 @@ import DetailNav from "../DetailNav";
 import {RouteComponentProps} from "react-router";
 import {Content, Root} from "./styles";
 
+import bcaVoorbeeld from "../../../assets/images/bca-besturing.gif";
+import bcaChatVerlamming from "../../../assets/images/bca-chat-verlamming.jpg";
+import bcaProthese1 from "../../../assets/images/bca-prothese1.gif";
+import bcaProthese2 from "../../../assets/images/bca-prothese2.gif";
+import bcaSchaakspel from "../../../assets/images/bca-schaakspel.png";
+import bcaCursorBesturing from "../../../assets/images/bca-cursorbesturing.png";
+import bcaVrouw from "../../../assets/images/bca-xwave-vrouw.png";
+import bcaAppScherm from "../../../assets/images/bca-xwave-scherm.png";
+import bcaDiagram from "../../../assets/images/bca-diagram.png";
+import bcaRolstoel from "../../../assets/images/bca-rolstoel.png";
+
 interface IProps extends RouteComponentProps<{}> {}
 
 const HersenenDetail: React.FC<IProps> = (props) => {
@@ -57,7 +68,7 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           of vrijwel permanent een inwendig stukje computerapparatuur in het hoofd brengen dat direct de hersenactiviteit kan meten. 
         </p>
 
-        <p>HIER EEN PLAATJE</p>
+        <img src={bcaVoorbeeld} />
         
         <p>
           Ja, dat laatste leest u goed. Het is mogelijk een computerchip in het brein te plaatsen om zo een (draadloze) verbinding te maken met een elektrisch apparaat, en deze te bedienen met de kracht van uw hersenen. 
@@ -84,8 +95,8 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           waarin hij mededeelde dat hij niet zou kunnen werken zonder deze technologie [3]. Peter Brunner heeft ALS [5] en is compleet verlamd.
         </p>
 
-        <p>HIER EEN PLAATJE</p>
-
+        <img src={bcaChatVerlamming} />
+        
         <h3>Mobiliteit</h3>
 
         <p>
@@ -98,7 +109,8 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           Hiervoor wordt een verbinding gelegd tussen de hersenen en de prothesen. In dit geval is een scootmobiel helemaal niet meer nodig.
         </p>
 
-        <p>HIER TWEE PLAATJES</p>
+        <img src={bcaProthese1} />
+        <img src={bcaProthese2} />
 
         <h3>Waarnemen van de werkelijke emotionele status</h3>
 
@@ -155,7 +167,8 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           Er valt op dit gebied nog veel terrein te winnen. [4]. 
         </p>
 
-        <p>HIER TWEE PLAATJES</p>
+        <img src={bcaSchaakspel} />
+        <img src={bcaCursorBesturing} />
 
         <p>
           Aangezien telefoons en tablets ook kunnen worden gezien als computers, kunnen deze op dezelfde manier worden bestuurd.
@@ -164,7 +177,8 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           Op deze wijze kunt u er hands-free spelletjes mee spelen, meditatie apps gebruiken, of in de toekomst apps gebruiken die nu nog niet zijn uitgevonden! Er is nog zoveel te ontdekken.
         </p>
 
-        <p>HIER TWEE PLAATJES</p>
+        <img src={bcaVrouw} />
+        <img src={bcaAppScherm} />
 
         <h3>Meer en snellere adoptie van technologische hulpmiddelen</h3>
 
@@ -180,7 +194,8 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           Dit verlaagt de drempel tot het accepteren van een prothese als hulpstuk en maakt het gebruik ervan natuurlijker.
         </p>
 
-        <p>HIER TWEE PLAATJES</p>
+        <img src={bcaDiagram} />
+        <img src={bcaRolstoel} />
 
       </Content>
     </Root>
