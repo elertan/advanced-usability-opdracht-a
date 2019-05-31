@@ -6,6 +6,9 @@ export const Root = styled.div`
   display: flex;
   justify-items: center;
   padding: 15px;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.95);
+  width: 100vw;
 `;
 
 export const BackButtonContainer = styled.div`
