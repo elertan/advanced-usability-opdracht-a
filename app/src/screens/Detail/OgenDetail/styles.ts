@@ -28,4 +28,14 @@ margin: 100px 15%;;
   p {
     margin: 10px 0;
   }
+
+  ul.bron {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -2em;
+    li {
+    margin-bottom: 25px;
+     }
+   }
 `;
