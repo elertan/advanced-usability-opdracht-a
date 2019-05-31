@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="51" column="217" selection-start-line="51" selection-start-column="217" selection-end-line="51" selection-end-column="217" />
+            <state relative-caret-position="704">
+              <caret line="57" column="149" selection-start-line="57" selection-start-column="149" selection-end-line="57" selection-end-column="149" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -268,12 +268,12 @@
       <workItem from="1557834893371" duration="3507000" />
       <workItem from="1559059747535" duration="647000" />
       <workItem from="1559116081925" duration="3000" />
-      <workItem from="1559294711988" duration="2511000" />
+      <workItem from="1559294711988" duration="2574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16425000" />
+    <option name="totallyTimeSpent" value="16488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -536,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="51" column="217" selection-start-line="51" selection-start-column="217" selection-end-line="51" selection-end-column="217" />
+        <state relative-caret-position="704">
+          <caret line="57" column="149" selection-start-line="57" selection-start-column="149" selection-end-line="57" selection-end-column="149" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

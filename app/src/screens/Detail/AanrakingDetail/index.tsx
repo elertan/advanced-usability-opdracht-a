@@ -54,6 +54,9 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
         <img src={lichtIntensiteitSchermImageSrc} />
 
         <h2>Waarom wordt touch zo veel gebruikt voor hegendaagse interactie met mobiele apparaten?</h2>
+        <p>
+          Touch interactie met je mobiele telefoon op tablet voelt heel normaal aan, en dat is waar een Natural User Interface ook precies voor staat.
+        </p>
       </Content>
     </Root>
   )
