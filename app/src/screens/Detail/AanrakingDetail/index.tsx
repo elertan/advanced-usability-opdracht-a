@@ -43,14 +43,13 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
         <img src={weerhoudendSchermImageSrc} />
         <h4>Capacitieve schermen</h4>
         <p>
-          Een capacitief scherm heeft een heel licht
+          Een capacitief scherm heeft een heel licht aantal stroom wat over het beeld loopt, en zodra je met je vinger op het beeld zit kan het beeld de veranderingen in stroom herkennen en een touch registreren op de plek waar dit plaatsvondt.
         </p>
         <img src={capacitiefSchermImageSrc} />
 
-
         <h4>Licht-intensieve schermen</h4>
         <p>
-          Een capacitief scherm heeft een heel licht
+          Een licht-intensief beeld herkent de veranderingen in licht-intensiteit op het beeld, waarbij het plaatsen van een vinger op het een beeld minder licht-intensief is dan wanneer er geen vinger op het beeld is.
         </p>
         <img src={lichtIntensiteitSchermImageSrc} />
 

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40390a75-09d7-453e-99be-7c7763bb67f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Detail/BewegingDetail/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Detail/BewegingDetail/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Detail/DetailNav/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Detail/DetailNav/styles.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,61 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="599">
+              <caret line="51" column="217" selection-start-line="51" selection-start-column="217" selection-end-line="51" selection-end-column="217" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/Detail/DetailNav/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/Detail/DetailNav/styles.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/styles.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/Detail/BewegingDetail/styles.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,17 +80,17 @@
         <option value="$PROJECT_DIR$/src/screens/Index/styles.ts" />
         <option value="$PROJECT_DIR$/src/screens/Detail/HersenenDetail/index.tsx" />
         <option value="$PROJECT_DIR$/src/screens/Detail/StemDetail/index.tsx" />
-        <option value="$PROJECT_DIR$/src/screens/Detail/StemDetail/styles.ts" />
-        <option value="$PROJECT_DIR$/src/screens/Detail/OgenDetail/styles.ts" />
-        <option value="$PROJECT_DIR$/src/screens/Detail/HersenenDetail/styles.ts" />
         <option value="$PROJECT_DIR$/src/screens/Detail/BewegingDetail/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/styles.tsx" />
         <option value="$PROJECT_DIR$/public/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/screens/Detail/DetailNav/styles.ts" />
-        <option value="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx" />
         <option value="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/styles.ts" />
         <option value="$PROJECT_DIR$/src/screens/Detail/BewegingDetail/styles.ts" />
+        <option value="$PROJECT_DIR$/src/screens/Detail/HersenenDetail/styles.ts" />
+        <option value="$PROJECT_DIR$/src/screens/Detail/OgenDetail/styles.ts" />
+        <option value="$PROJECT_DIR$/src/screens/Detail/StemDetail/styles.ts" />
+        <option value="$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx" />
       </list>
     </option>
   </component>
@@ -235,6 +182,30 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+              <item name="HersenenDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+              <item name="OgenDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+              <item name="StemDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -297,12 +268,12 @@
       <workItem from="1557834893371" duration="3507000" />
       <workItem from="1559059747535" duration="647000" />
       <workItem from="1559116081925" duration="3000" />
-      <workItem from="1559294711988" duration="2284000" />
+      <workItem from="1559294711988" duration="2511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16198000" />
+    <option name="totallyTimeSpent" value="16425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -435,36 +406,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/brain.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Detail/HersenenDetail/styles.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Detail/OgenDetail/styles.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Detail/StemDetail/styles.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Detail/BewegingDetail/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -523,6 +464,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Detail/BewegingDetail/styles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Detail/HersenenDetail/styles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Detail/OgenDetail/styles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Detail/StemDetail/styles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/styles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Detail/DetailNav/styles.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -545,30 +536,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="599">
+          <caret line="51" column="217" selection-start-line="51" selection-start-column="217" selection-end-line="51" selection-end-column="217" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Detail/AanrakingDetail/styles.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Detail/BewegingDetail/styles.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
