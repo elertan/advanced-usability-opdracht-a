@@ -9,7 +9,7 @@ export const Root = styled.div`
 `;
 
 export const Content = styled.div`
-  margin: 100px 100px;
+margin: 100px 15%;;
   
   h1 {
     font-family: 'Playfair Display', serif;

@@ -21,6 +21,9 @@ const BaseItem = styled.div<IBaseItemProps>`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
   ${props => css`
     background-image: url(${props.backgroundImageSrc});
   `}
@@ -49,6 +52,34 @@ export const Item = styled.div`
   overflow: hidden;
 `;
 
+export const Nav = styled.div`
+  background-color: #EEEEEE;
+  display: flex;
+  width: 100%
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Button = styled.button`
+  width: 13%
+  font-size: 20px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 25px;
+  &:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    background-color: #E1E1E1;
+  }
+  &:focus {
+    outline:none;
+  }
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+`;
+
 export const EyeItem = styled(BaseItem)`
 `;
 
@@ -63,3 +94,10 @@ export const TouchItem = styled(BaseItem)`
 
 export const MotionItem = styled(BaseItem)`
 `;
+
+export const NavBar = styled(Nav)`
+`;
+
+export const BeautifulButton = styled(Button)`
+`;
+

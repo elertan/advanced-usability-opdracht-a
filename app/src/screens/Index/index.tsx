@@ -1,5 +1,5 @@
 import * as React from "react";
-import {BrainItem, EyeItem, TouchItem, Item, MotionItem, Root, Row, VoiceItem} from "./styles";
+import {BrainItem, EyeItem, TouchItem, Item, MotionItem, Root, Row, VoiceItem, NavBar, BeautifulButton} from "./styles";
 
 import eyeImageSrc from "../../assets/images/eye.png";
 import motionImageSrc from "../../assets/images/motion.jpg";
@@ -32,9 +32,14 @@ const IndexScreen: React.FC<IProps> = (props) => {
     props.history.push("/beweging");
   }, [props.history]);
 
+  const handleIntroItemClick = useCallback(() => {
+    props.history.push("/intro");
+  }, [props.history]);
 
   return (
     <Root>
+      <NavBar><BeautifulButton onClick={handleIntroItemClick}><b>Intro</b></BeautifulButton>
+      </NavBar>
       <Row>
         <Item>
           <EyeItem backgroundImageSrc={eyeImageSrc} onClick={handleEyeItemClick}>
