@@ -9,7 +9,7 @@ export const Root = styled.div`
 `;
 
 export const Content = styled.div`
-  margin: 100px 100px;
+  margin: 100px 15%;  
   
   h1 {
     font-family: 'Playfair Display', serif;
@@ -27,5 +27,40 @@ export const Content = styled.div`
   
   p {
     margin: 10px 0;
+    display: block;
   }
+  ul {
+    margin: 15px 30px;
+    
+    li {
+      margin: 5px 0;
+    }
+  }
+  
+  img {
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  #stap {
+    margin-left: 20px;
+    margin-right: 160px;
+  }
+  #google {
+    width: 200px;
+    height:400px;
+    margin-right: 10px;
+    
+  }
+  ul.bron {
+   list-style: none;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -2em;
+   li {
+   margin-bottom: 25px;
+    }
+  }
+  
+  
 `;
