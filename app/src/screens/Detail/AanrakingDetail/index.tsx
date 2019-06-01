@@ -27,7 +27,7 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
 
         <h2>Hoe werkt Touch?</h2>
         <p>
-          Er zijn meerdere vormen van touch schermen, die ieder hun eigen manier van het herkennen van vingers op het scherm gebruiken.
+          Er zijn meerdere vormen van touch schermen, die ieder hun eigen manier van het herkennen van vingers op het scherm gebruiken [1].
           Zo zijn er bijvoorbeeld 3 bekende vormen van touch schermen.
         </p>
         <ul>
@@ -42,6 +42,7 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
         </p>
         <img src={weerhoudendSchermImageSrc} />
         <h4>Capacitieve schermen</h4>
+
         <p>
           Een capacitief scherm heeft een heel licht aantal stroom wat over het beeld loopt, en zodra je met je vinger op het beeld zit kan het beeld de veranderingen in stroom herkennen en een touch registreren op de plek waar dit plaatsvondt.
         </p>
@@ -53,10 +54,27 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
         </p>
         <img src={lichtIntensiteitSchermImageSrc} />
 
+        <p>
+          Elk van deze vormen van touch wordt uiteindelijk onderliggend op dezelfde manier toegepast, namelijk via het gebruik van vingers deze interactie te kunnen bieden.
+        </p>
+
         <h2>Waarom wordt touch zo veel gebruikt voor hegendaagse interactie met mobiele apparaten?</h2>
         <p>
-          Touch interactie met je mobiele telefoon op tablet voelt heel normaal aan, en dat is waar een Natural User Interface ook precies voor staat.
+          Touch interactie met je mobiele telefoon op tablet voelt heel normaal aan, en dat is waar een Natural User Interface (NUI) ook precies voor staat [2].
         </p>
+        <p>
+          Sinds dat de mobiele telefoon op de markt is gebracht, is het gebruik van touch als NUI flink gestegen. Bijna iedereen bezit sindsdien wel een apparaat wat je met je vingers kan besturen.
+        </p>
+
+        <h2>Bronnen</h2>
+        <ul>
+          <li>
+            [1] McCan, A. T. (2012), Okay, but how do touch screens actually work? Geraadpleegd op 31 Mei 2019, van: https://scienceline.org/2012/01/okay-but-how-do-touch-screens-actually-work/
+          </li>
+          <li>
+            [2] Froehlich, J., Wobbrock J. O., Kane S. K. (e.d.), Barrier Pointing: Using Physical Edges to Assist Target Acquisition on Mobile Device Touch Screens. Geraadpleegd 1 Juni 2019, van: https://makeabilitylab.cs.washington.edu/media/publications/Barrier_pointing_using_physical_edges_to_assist_target_acquisition_on_mobile_device_touch_screens_kPwjyzS.pdf
+          </li>
+        </ul>
       </Content>
     </Root>
   )
