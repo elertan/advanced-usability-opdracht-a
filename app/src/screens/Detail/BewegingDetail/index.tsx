@@ -23,44 +23,44 @@ const BewegingDetail: React.FC<IProps> = (props) => {
 
         <h2>Introductie</h2>
         <p>
-        Mensen zijn actieve wezens. Ze lopen, rennen, zwaaien, gebaren maken enzovoort. Met andere worden, mensen houden van bewegen, 
-        ze hebben hun eigen lot in handen. Als je echter tv kijk dan heb je best wel weinig variatie in beweging. Het enige wat je doet 
-        is op je afstandsbediening een knopje indrukken. Best wel saai. Wat nou als we beweging in je tv ervaring integreren? Misschien 
-        maakt het wat interessanter? En waarom stoppen bij jou thuis? Kunnen we beweging gebruiken voor andere dingen. Gek genoeg, 
-        we zijn nu bezig om beweging en technologie samen te voegen.
+        Mensen zijn actieve wezens. Ze lopen, rennen, zwaaien, maken gebaren, enzovoort. Met andere woorden: mensen houden van bewegen en 
+        hebben hierin hun eigen keuzevrijheid. Als u echter tv kijkt dan heeft u best wel weinig variatie in beweging. Het enige wat u doet 
+        is op uw afstandsbediening een knopje indrukken. Best wel saai. Wat als we nou het bewegen in de tv-ervaring integreren? Misschien 
+        maakt dat het wat interessanter. En waarom stoppen bij u thuis? Kunnen we <i>bewegingbesturing</i> niet gebruiken voor andere dingen? 
+        Gek genoeg is men nu bezig om <i>beweging en technologie</i> samen te voegen, onder de noemer <i>bewegingswaarneming</i>.
         </p>
         <h2>Hoe werkt de achterliggende techniek?</h2>
         <p>
-        De achterliggende gedachten van bewegingswaarneming is het observeren van beweging. Het waarnemen van beweging wordt door sensoren 
-        gedaan. Elke soort sensor geeft een bepaalde frequentie af die uiteindelijk in contact komen met voorwerpen en/of mensen. Hiermee 
-        kan de sensor beweging detecteren.
+        De achterliggende gedachte van bewegingswaarneming is het observeren van beweging. Het waarnemen van beweging wordt door sensoren (meetinstrumentjes)
+        gedaan. Elk soort sensor geeft een radiogolf met een bepaalde frequentie af. Deze golf komt in contact met voorwerpen en/of mensen. 
+        Door de vervorming van de radiogolf kan de sensor beweging detecteren.
         </p>
 
-        <li>Infrarood</li>
-        <p>De hoofd gedachte achter infrarood detectie is de waarnemen van lichaamstemperatuur van warmbloedige, waaronder mensen. Het is 
-          de meest makkelijk en goedkope manier voor het waarnemen van beweging, maar omdat het hitte detecteert kan het makkelijk in de 
-          war raken bij hoge temperatuur. Het is één van de meest gebruikt vorm van bewegingswaarneming. </p>
+        <li><b>Infrarood</b></li>
+        <p>De hoofdgedachte achter infrarood detectie is het waarnemen van lichaamstemperatuur van warmbloedige wezens, waaronder mensen. Het is een erg
+          makkelijke en goedkope manier voor het waarnemen van beweging. Maar omdat het hitte detecteert, kan het makkelijk in de 
+          war raken bij hogere temperaturen. Toch is het één van de meest gebruikte vormen van bewegingswaarneming. </p>
         <img style={{width:300, height:150}} src={pic1} />
-        <li>Microgolf en ultrasonisch</li>
-        <p>Deze twee sensoren werken ongeveer hetzelfde. Allebei geven golf pulsen af die reflecteren op voorwerpen. Bewegende objecten 
-          zorgen ervoor dat frequentie van de gereflecteerde golven verandert, een fenomeen genaamd de Doppler effect. De sensor meet het 
-          frequentie verschil tussen de uitgezonden golven en de gereflecteerde golven. Als dat verschil een drempel bereikt, dan geeft 
-          de sensor in signaal. De actie daarna hangt af van het programma. Het enige verschil tussen de microgolf en ultrasonisch is de 
-          frequentie van de golven.</p>
-        <li>Tomografisch</li>
-        <p>Bij de tomografie wordt er gebruik gemaakt van radiogolven. Sinds radiogolven door massa heen kan gaan hebben tomografische 
+        <li><b>Microgolf en ultrasonisch</b></li>
+        <p>Microgolf en ultrasonische sensoren werken ongeveer hetzelfde. Allebei geven golf pulsen af die reflecteren op voorwerpen. Bewegende objecten 
+          zorgen ervoor dat de frequentie van de gereflecteerde golven verandert, een fenomeen genaamd het <i>Doppler effect</i>. De sensor meet het 
+          frequentieverschil tussen de uitgezonden golven en de gereflecteerde golven. Als dat verschil een drempel bereikt, dan geeft 
+          de sensor een signaal. Uit het frequentieverschil kan dus een instructie voor het apparaat worden geinterpreteerd.
+          Het enige verschil tussen de microgolf en ultrasonisch is de frequentie van de golven.</p>
+        <li><b>Tomografisch</b></li>
+        <p>Bij de tomografie wordt er gebruik gemaakt van radiogolven. Sinds radiogolven door massa heen kunnen gaan, hebben tomografische 
           sensoren het vermogen om beweging door muren waar te nemen. Het is wel erg duur, dus het wordt schaars gebruikt.</p>
-        <li>Combinatie</li>
+        <li><b>Combinatie</b></li>
         <p>Het is mogelijk om sensoren met elkaar te combineren. Een bekende combinatie is de microgolf sensor met een infrarood sensor. 
-          Dit is handig om fouten te vermijden, sinds beide sensoren iets anders opvangen.[1][2][3]</p>
+          Dit is handig om fouten te vermijden, sinds beide sensoren iets anders golven opvangen.[1][2][3]</p>
 
         <h2>Voor welke toepassingen wordt het gebruikt?</h2>
-        <p>Tegenwoordig wordt beweging detectie vaak gebruikt, waaronder beveiliging en media. </p>
+        <p>Tegenwoordig wordt beweging detectie vaak gebruikt in de beveiligingsbranche en voor verschillende mediasystemen. </p>
         <img style={{width:300, height:150}} src={pic2} />
         <h3>Kinect</h3>
-        <p>Een bekende computerspel is de xbox Kinect. Hoewel het financieel faalde, de Kinect’s technologie met bewegingsdetectie is 
-          erg geavanceerd. De Kinect maak gebruik van infrarood sensoren die in de camera zit. De software van het apparaat is het 
-          belangrijkste gedeelte. Hierin is er allemaal data verzameld van allerlei bewegende object. Deze data wordt gebruikt als 
+        <p>Een bekend mediasysteem is de spelcomputer genaamd de Xbox Kinect. Hoewel het financieel faalde, was de Kinects technologie met bewegingsdetectie 
+          zijn tijd ver vooruit. De Kinect maakt gebruik van infrarood sensoren die in de camera van de spelcomputer zelf zit. Het computerprogramma van het apparaat is het 
+          belangrijkste gedeelte. Hierin bevindt zich alle verzamelde data afkomstig van allerlei bewegende objecten. Deze data wordt gebruikt als 
           vergelijking voor de Kinect als het de gebruiker waarneemt. De Kinect scant zogezegd de gebruiker, vergelijkt het met de
            data die opgeslagen, en geeft afhankelijk daarvan een 3d model van speler weer. Dit gebeurt 30 keer per seconde, dit zorgt 
            ervoor dat alles vloeiend lijkt.[4]</p>
