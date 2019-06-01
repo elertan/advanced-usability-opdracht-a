@@ -22,7 +22,7 @@ const HersenenDetail: React.FC<IProps> = (props) => {
       <DetailNav {...props} />
       <Content>
         <h1>Besturing met het brein</h1>
-
+        <h2>Introductie</h2>
         <p>
           Tegenwoordig is het zelfs mogelijk om zonder lichamelijk contact een elektrisch apparaat, rolstoel of prothese te bedienen.
           Met alleen een functionerend brein tot uw beschikking, kunt u bijvoorbeeld een computer een programma laten opstarten en tekst op het beeld krijgen.
@@ -46,7 +46,7 @@ const HersenenDetail: React.FC<IProps> = (props) => {
          De technologie is daarmee dus nog lang niet klaar voor het brede publiek [3].
         </p>
 
-        <h2>Hoe werkt de achterliggende techniek?	</h2>
+        <h2>Hoe werkt de achterliggende techniek?</h2>
 
         <p>
           Alles wat zojuist genoemd is, wordt mogelijk gemaakt door een zogenaamd brein-computer aansluitingspunt (BCA).
@@ -238,7 +238,9 @@ const HersenenDetail: React.FC<IProps> = (props) => {
             <li>
               [6] Pasqualotto, E. (2012). <i>Usable Communication: Usability Evaluation of Brain-computer Interfaces </i>
               <br/>Geraadpleegd op: 20-05-2019, van:	 	 	
-              https://books.google.nl/books?id=xY3eu-p89iEC&pg=PA82&lpg=PA82&dq=java+bci+prototypes&source=bl&ots=PGW_0KcI5l&sig=ACfU3U1JpVwvQLbllLtu_OEr9pHRtObkUQ&hl=en&sa=X&ved=2ahUKEwjl0NW3sq_iAhXR-KQKHUJaBRsQ6AEwAHoECAgQAQ#v=onepage&q&f=false	 
+              https://books.google.nl/books?id=xY3eu-p89iEC&pg=PA82&lpg=PA82&dq=java+bci+prototypes&source=bl&ots=PGW_0KcI5l&
+              sig=ACfU3U1JpVwvQLbllLtu_OEr9pHRtObkUQ&hl=en&sa=X&ved=2ahUKEwjl0NW3sq_iAhXR-KQKHUJaBRsQ6AEwAHoECAgQAQ#v=onepage&
+              q&f=false	 
             </li>
             <li>
               [7] ISO Register (2019) <i>Informatie over de ISO Normen</i>

@@ -25,7 +25,7 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
           Meer hierover is te lezen op deze pagina.
         </p>
 
-        <h2>Hoe werkt Touch?</h2>
+        <h2>Hoe werkt de achterliggende techniek?</h2>
         <p>
           Er zijn meerdere vormen van touch schermen, die ieder hun eigen manier van het herkennen van vingers op het scherm gebruiken [1].
           Zo zijn er bijvoorbeeld 3 bekende vormen van touch schermen.
@@ -67,12 +67,14 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
         </p>
 
         <h2>Bronnen</h2>
-        <ul>
+        <ul className="bron">
           <li>
             [1] McCan, A. T. (2012), Okay, but how do touch screens actually work? Geraadpleegd op 31 Mei 2019, van: https://scienceline.org/2012/01/okay-but-how-do-touch-screens-actually-work/
           </li>
           <li>
-            [2] Froehlich, J., Wobbrock J. O., Kane S. K. (e.d.), Barrier Pointing: Using Physical Edges to Assist Target Acquisition on Mobile Device Touch Screens. Geraadpleegd 1 Juni 2019, van: https://makeabilitylab.cs.washington.edu/media/publications/Barrier_pointing_using_physical_edges_to_assist_target_acquisition_on_mobile_device_touch_screens_kPwjyzS.pdf
+            [2] Froehlich, J., Wobbrock J. O., Kane S. K. (e.d.), Barrier Pointing: Using Physical Edges to Assist Target Acquisition on Mobile Device Touch Screens. Geraadpleegd 1 Juni 2019, 
+            van: https://makeabilitylab.cs.washington.edu/media/publications/
+            Barrier_pointing_using_physical_edges_to_assist_target_acquisition_on_mobile_device_touch_screens_kPwjyzS.pdf
           </li>
         </ul>
       </Content>
