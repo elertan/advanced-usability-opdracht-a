@@ -8,6 +8,8 @@ import plaatje2 from "../../../assets/images/n2.jpg";
 import plaatje3 from "../../../assets/images/n3.jpg";
 import plaatje4 from "../../../assets/images/n4.jpg";
 import plaatje5 from "../../../assets/images/n5.jpg";
+import plaatje7 from "../../../assets/images/n7.gif";
+
 import meme from "../../../assets/images/n420.jpg";
 
 
@@ -35,11 +37,11 @@ const OgenDetail: React.FC<IProps> = (props) => {
           In de eye trackers zitten een aantal onderdelen die erg belangrijk zijn voor de techniek om goed te kunnen werken. 
           De eye trackers bevatten over het algemeen twee veel voorkomende onderdelen: een lichtbron en een camera. 
           Maar hoe kan een stukje hardware nou zien waar je op een scherm naar kijkt? 
-          De meest gebruikte techniek hiervoor is de pupil centrum corneale reflectie (PCCR) [].
+          De meest gebruikte techniek hiervoor is de pupil centrum corneale reflectie (PCCR) [34].
         </p>
         <p>
           De lichtbron van de eyetracker zorgt ervoor dat ervoor dat er een infrarood lichtje in de ogen van de gebruiker wordt geschenen. 
-          Infrarood kan niet door mensen met het blote oog gezien worden en het is ook niet schadelijk voor de ogen []. 
+          Infrarood kan niet door mensen met het blote oog gezien worden en het is ook niet schadelijk voor de ogen [35]. 
           De gebruiker heeft dus niet door dat er een infrarood lichtje in zijn ogen aan het schijnen is.        
         </p>
         <img style={{width:300, height:250}} src={plaatje1}/>
@@ -61,6 +63,7 @@ const OgenDetail: React.FC<IProps> = (props) => {
         <p style={{fontWeight:"bold"}}>
           Usability/UX onderzoek (voor websites)  
         </p>
+        <img src={plaatje7}/>
         <p>
           Dankzij eye-tracking is het mogelijk om een inzicht te krijgen in het gedrag van de gebruikers. 
           Zodra een gebruiker een webpagina bezoekt, kun je zien waar de gebruiker naar kijkt op de website. 
@@ -107,55 +110,65 @@ const OgenDetail: React.FC<IProps> = (props) => {
         </p>
 
         <p>
-          Na het onderzoek moesten alle deelnemers een system usability scale (SUS) vragenlijst invullen []. 
+          Na het onderzoek moesten alle deelnemers een system usability scale (SUS) vragenlijst invullen [36]. 
           Het bestaat uit een vragenlijst met 10 items met vijf responsopties voor respondenten; van Sterk mee eens tot zeker niet mee eens. 
-          Uit het onderzoek is gebleken dat  de gemiddelde SUS score was 73.75. Dit staat ook wel gelijk aan goed of geweldig[].
+          De gemiddelde SUS score van het onderzoek was 73.75. Dit staat ook wel gelijk aan goed of geweldig[37].
         </p>
 
         <p>
           Uit het onderzoek is gebleken dat de meerderheid van de deelnemers erg tevreden waren over het speciale systeem. 
           De gebruikers gaven aan dat zij meer voorkeur hadden voor het eye tracking systeem. 
-          Het systeem was effectiever en makkelijk te gebruiken.
+          Het systeem was effectiever en makkelijk te gebruiken [38].
         </p>
 
         <h2>Hoe kunnen bestaande technologieën hiermee toegankelijker worden?</h2>
 
-        <p>FeelsBadMan</p>
-        <img style={{width:300, height:250}} src={meme}/>
+        <p>
+          Eye tracking zal het leven van mensen die verlamt zijn of spierziektes hebben nog meer verbeteren. 
+          Deze mensen kunnen door hun ziekte de controle over hun spieren verliezen maar ook hun volledige communicatie vaardigheden. 
+          Hierdoor zijn zij zeer afhankelijk van zorg van anderen. Met de eye tracking systemen is het mogelijk om deze mensen weer een beter kwaliteit van leven te bieden [39]. Door deze systemen kunnen zij weer zelfstandig communiceren . Helaas zijn de kosten voor deze system nog er hoog. 
+          In de toekomst zal deze apparatuur toegankelijker zijn voor deze doelgroep als de prijzen gaan dalen. 
+       </p>
 
 
         <h2>Bronnen</h2>
         <p>
           <ul className="bron">
             <li>
-              [] 
+              [34] 
               Ikuhisa Mitsugami, Norimichi Ukita (2005). Robot Navigation by Eye Pointing
               Geraadpleegd op: 20-05-2019, van:
               https://www.researchgate.net/publication/311962363_Robot_Navigation_by_Eye_Pointing
             </li>
             <li>
-              [] 
+              [35] 
               Nikolaos Kourkoumelis, Margaret Tzaphlidou (2011). Eye Safety Related to Near Infrared Radiation Exposure to Biometric Devices
               Geraadpleegd op: 20-05-2019, van:
               https://www.researchgate.net/publication/50291066_Eye_Safety_Related_to_Near_Infrared_Radiation_Exposure_to_Biometric_Devices
             </li>
             <li>
-              [] 
+              [36] 
               Usability (2016). System Usability Scale
               Geraadpleegd op: 20-05-2019, van:
               https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html
             </li>
             <li>
-              []
+              [37]
               Marijke van Moll (2010). Gebruiksvriendelijkheid meten met een vragenlijst
               Geraadpleegd op: 20-05-2019, van:
               https://www.frankwatching.com/archive/2010/05/04/gebruiksvriendelijkheid-meten-met-een-vragenlijst/
             </li>
             <li>
-              []
+              [38]
               Xuebai Zhang, Xiaolong Liu, Shyan-Ming Yuan, Shu-Fan Lin (2017). Eye Tracking Based Control System for Natural Human-Computer Interaction
               Geraadpleegd op: 20-05-2019, van:
               https://www.researchgate.net/publication/321910031_Eye_Tracking_Based_Control_System_for_Natural_Human-Computer_Interaction/fulltext/5a398a8baca2728e698789a6/321910031_Eye_Tracking_Based_Control_System_for_Natural_Human-Computer_Interaction.pdf?origin=publication_detail
+            </li>
+            <li>
+              [39]
+              Andrea Calvo, Adriano Chi`o, Emiliano Castellina (2008). Eye Tracking Impact on Quality-of-Life of ALS Patients
+              Geraadpleegd op: 20-05-2019, van:
+              https://www.researchgate.net/profile/Fulvio_Corno/publication/221009742_Eye_Tracking_Impact_on_Quality-of-Life_of_ALS_Patients/links/56d01c6008ae059e375b7d4c/Eye-Tracking-Impact-on-Quality-of-Life-of-ALS-Patients.pdf
             </li>
           </ul>
         </p>
