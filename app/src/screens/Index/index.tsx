@@ -36,9 +36,15 @@ const IndexScreen: React.FC<IProps> = (props) => {
     props.history.push("/intro");
   }, [props.history]);
 
+  const handleConclusieItemClick = useCallback(() => {
+    props.history.push("/conclusie");
+  }, [props.history]);
+
   return (
     <Root>
-      <NavBar><BeautifulButton onClick={handleIntroItemClick}><b>Intro</b></BeautifulButton>
+      <NavBar>
+        <BeautifulButton onClick={handleIntroItemClick}><b>Intro</b></BeautifulButton>
+        <BeautifulButton onClick={handleConclusieItemClick}><b>Conclusie</b></BeautifulButton>
       </NavBar>
       <Row>
         <Item>

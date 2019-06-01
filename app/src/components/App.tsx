@@ -9,6 +9,7 @@ import StemDetail from "../screens/Detail/StemDetail";
 import AanrakingDetail from "../screens/Detail/AanrakingDetail";
 import BewegingDetail from "../screens/Detail/BewegingDetail";
 import IntroDetail from "../screens/Detail/IntroDetail";
+import ConclusieDetail from "../screens/Detail/ConclusieDetail";
 import {HashRouter} from "react-router-dom";
 
 // const history = createBrowserHistory();
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <CustomSwitch>
           <Route exact path="/" component={IndexScreen}/>
           <Route exact path="/intro" component={IntroDetail}/>
+          <Route exact path="/conclusie" component={ConclusieDetail}/>
           <Route exact path="/ogen" component={OgenDetail}/>
           <Route exact path="/hersenen" component={HersenenDetail}/>
           <Route exact path="/stem" component={StemDetail}/>

@@ -19,8 +19,8 @@ const StemDetail: React.FC<IProps> = (props) => {
       <DetailNav {...props} />
       <Content>
         <h1>STEM</h1>
-        <img src={plaatje1}/>
-        <h2>Inleiding</h2>
+        
+        <h2>Introductie</h2>
         <p>
          Door middel van een spraakbesturingssysteem, kan een gebruiker door iets te zeggen in een microfoon opdrachten 
          sturen naar een apparaat. Zo’n apparaat wordt ook wel een spraakbesturing apparaat genoemd. Het apparaat bevat 
@@ -30,7 +30,7 @@ const StemDetail: React.FC<IProps> = (props) => {
          gebruiken voor het invullen van een zoekterm in Google. De microfoon ontvangt de signalen van de gebruiker en zet deze 
          via het spraakbesturingssysteem om [16].
         </p>
-
+        <img src={plaatje1}/>
         <h2>Hoe werkt de achterliggende techniek?</h2>
         <p>
         Er zijn twee soorten spraakherkenningsprogramma’s.    

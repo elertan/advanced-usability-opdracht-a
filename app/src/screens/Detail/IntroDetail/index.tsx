@@ -78,10 +78,6 @@ const IntroDetail: React.FC<IProps> = (props) => {
         De eerste twee deelvragen beschrijven de <i>actuele technologie</i> en de laatste twee deelvragen de <i>usability en 
         gebruikerservaring van NUI.</i>
         </p>
-        <h2>Conclusie</h2>
-        <p>
-        なんでやねん！
-        </p>
         <h2>Bronnen</h2>
         <p>
         参照はここに入れてください。
