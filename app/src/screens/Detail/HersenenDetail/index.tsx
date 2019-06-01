@@ -137,12 +137,12 @@ const HersenenDetail: React.FC<IProps> = (props) => {
         <p>
           Brein-computer aansluitingspunten behoren tot de wetenschap van de zogenaamde psychotechnologie [6].
           Deze wetenschap en de technologie staat nog in de kinderschoenen en is daarmee niet toegankelijk tot het grote publiek.
-          In het verlengde daarvan ontbreekt het ook nog aan realistische dagelijkse toepassingen. Vrijwel alle apparatuur is nog een prototype en is daardoor erg duur.
+          In het verlengde daarvan ontbreekt het ook nog aan realistische dagelijkse toepassingen [4]. Vrijwel alle apparatuur kan vooralsnog worden beschouwd als experimenteel.
         </p>
 
         <p>
           Dat gezegd hebbende, zijn er wel studies gedaan naar de gebruikerservaring van verschillende brein-computer aansluitingspunten [6][9].
-          In een van deze studies is gekeken naar de volgende drie kenmerken van een BCA. Deze kenmerken behoren tot een standaarddefinitie (genaamd ISO) op het gebied van kwaliteit [7].
+          In een van deze studies is gekeken naar de volgende drie kwaliteitskenmerken van een BCA. Deze kenmerken behoren tot een standaarddefinitie (genaamd ISO [7]) op het gebied van kwaliteit.
           Hier werd op gelet: prestatie, mentale belasting en voldoening, van de niet-gehandicapte testpersonen bij gebruik van de BCA.
           Tijdens de meting werden vragen gesteld als: hoe snel leert een persoon de technologie te gebruiken?
           Hoe snel kan een gebruiker met het apparaat zijn doel bereiken? En hoe voelt de gebruiker zich daarbij?
@@ -150,12 +150,15 @@ const HersenenDetail: React.FC<IProps> = (props) => {
 
         <p>
           Helaas stellen de resultaten vooralsnog teleur [4][6]. Natuurlijk kan dat nog wel verwacht worden van een technologie die vooralsnog erg geavanceerd en innovatief is.
-          De nadruk ligt vanzelfsprekend in eerste instantie op het laten werken van de technologie. Hierna komt pas de verfijning ervan. Gebruikscomfort behoort tot het laatste.
+          De nadruk ligt vanzelfsprekend in eerste instantie op het laten <i>werken</i> van de technologie. Hierna komt pas de verfijning ervan. Gebruikscomfort behoort tot het laatste.
+          De gedeelde conclusies over de gebruiksvriendelijkheid van BCAs spreken over de nood om de huidige meettechniek te verbeteren en meer gerichte computerprogramma's te maken voor het gebruik van BCAs [4][6][9].
+          Betere sensoren (meetinstrumentjes) en verbeteringen in de gebruikte apparatuur zouden respectievelijk het meetresultaat en het draagcomfort voor de gebruiker ten goede komen. 
+          Tegelijkertijd moet de ontwikkeling van de speciaal gemaakte computerprogramma's ook doorzetten. Momenteel schort het aan beide kanten van dit spectrum en is er nog veel onderzoek op beide gebieden nodig [4][6][9].
         </p>
 
         <p>
-          Een waarschuwing dient zich wel aan: uit studies is gebleken dat mensen met een beperking ook bereid zijn om hulpmiddelen niet te gebruiken, of te stoppen met het gebruiken ervan,
-          wanneer deze niet voldoet aan hun kwaliteitsbehoeften [8]. Het is niet zo dat gehandicapten per definitie iets zullen gebruiken omdat zij geen keuze hebben.
+          Een waarschuwing dient zich ook aan: uit studies is gebleken dat mensen met een beperking ook bereid zijn om hulpmiddelen niet te gebruiken, of te stoppen met het gebruiken ervan,
+          wanneer deze niet voldoet aan hun kwaliteitsbehoeften [8]. Het is namelijk niet zo dat gehandicapten per definitie iets zullen gebruiken omdat zij geen keuze hebben.
           Als een hulpmiddel geen voldoening geeft (ook al vervult het een functie), is er een grote kans dat deze niet meer in gebruik zal worden genomen [6].
           Dit is zorgelijk, want het is enorm zonde als niet iedereen mee kan doen in de samenleving.
           Het is daarom van belang dat alle hulpmiddelen voldoende getest zijn, niet alleen op functionaliteit maar ook op gebruiksvriendelijkheid.
@@ -184,10 +187,10 @@ const HersenenDetail: React.FC<IProps> = (props) => {
         <p><i><b>Boven:</b> een man speelt een schaakspel op de computer met zijn gedachten. <b>Onder:</b> uitleg hoe een BCA te gebruiken om de pijl (cursor) over het computerbeeld naar het doelwit te bewegen.</i></p>
 
         <p>
-          Aangezien telefoons en tablets ook kunnen worden gezien als computers, kunnen deze op dezelfde manier worden bestuurd.
+          Aangezien telefoons en tablets ook kunnen worden gezien als computers, kunnen deze op dezelfde manier instructies ontvangen.
           De XWave (zie foto’s hieronder) is een BCA die het mogelijk maakt uw iPhone of iPad te bedienen met het brein [10].
-          De signalen komen vanuit het brein via de XWave de iPhone binnen. Een speciale app kan deze signalen omzetten naar instructies die de telefoon kan begrijpen.
-          Op deze wijze kunt u er hands-free spelletjes mee spelen, meditatie apps gebruiken, of in de toekomst apps gebruiken die nu nog niet zijn uitgevonden! Er is nog zoveel te ontdekken.
+          De signalen komen vanuit het brein via de XWave de iPhone binnen. Een speciale <i>app</i> kan deze signalen omzetten naar instructies die de telefoon kan begrijpen.
+          Op deze wijze kunt u er <i>hands-free</i> spelletjes mee spelen, meditatie apps gebruiken, of in de toekomst apps gebruiken die nu nog niet zijn uitgevonden! Er is nog zoveel te ontdekken.
         </p>
 
         <img src={bcaVrouw} />
@@ -198,9 +201,9 @@ const HersenenDetail: React.FC<IProps> = (props) => {
         <h3>Meer en snellere adoptie van technologische hulpmiddelen</h3>
 
         <p>
-          Op het gebied van mobiliteitshulpmiddelen zoals prothesen en rolstoelen kunnen BCA’s een grote rol spelen [9][11]. 
-          Niet alleen maakt het deze hulpmiddelen volledig bruikbaar voor mensen met een verlamming, maar het kan ook de gebruiksvriendelijkheid voor elk soort gebruiker verhogen.
-          We kunnen bijvoorbeeld onze handen vrij houden en ons bovenlichaam minder belasten tijdens het besturen van een rolstoel.
+          Op het gebied van mobiliteitshulpmiddelen zoals prothesen en rolstoelen kunnen BCAs een grote rol spelen [9][11]. 
+          Niet alleen kunnen BCAs deze hulpmiddelen volledig bruikbaar maken voor mensen met een verlamming, ze kunnen ook de gebruiksvriendelijkheid van de hulpmiddelen voor elk soort gebruiker verhogen.
+          Zo kunnen gebruikers bijvoorbeeld hun handen vrij houden en hun bovenlichaam minder belasten tijdens het besturen van een rolstoel.
         </p>
 
         <p>
@@ -214,6 +217,72 @@ const HersenenDetail: React.FC<IProps> = (props) => {
 
         <p><i><b>Links:</b> signalen worden gestuurd vanuit het brein en worden onderweg omgevormd tot een (digitale) vorm die te interpreteren is voor (medische) hulpmiddelen. <b>Rechts:</b> een rolstoelgebruiker met een XWave, waarmee hersensignalen via de iPhone naar de rolstoel kunnen.</i></p>
 
+        <h2>Gebruikte bronnen</h2>
+        <p>
+          <ul className="bron">
+            <li>
+            [3] Rouse, M. (2017). <i>What is a brain-computer interface?</i>
+            <br/>Geraadpleegd op: 16-05-2019, van:
+             https://whatis.techtarget.com/definition/brain-computer-interface-BCI
+            </li>
+            <li>
+              [4] McFarland, D.J. & Wolpaw, J.R. (2017). <i>EEG-based brain-computer interfaces</i>
+              <br />Geraadpleegd op: 17-05-2019, van:
+              https://www.sciencedirect.com/science/article/pii/S246845111730082X
+            </li>
+            <li>
+              [5] Wikipedia. <i>Amyotrofe laterale sclerose</i>
+              <br />Geraadpleegd op: 17-05-2019, van:
+              https://nl.wikipedia.org/wiki/Amyotrofe_laterale_sclerose
+            </li>
+            <li>
+              [6] Pasqualotto, E. (2012). <i>Usable Communication: Usability Evaluation of Brain-computer Interfaces </i>
+              <br/>Geraadpleegd op: 20-05-2019, van:	 	 	
+              https://books.google.nl/books?id=xY3eu-p89iEC&pg=PA82&lpg=PA82&dq=java+bci+prototypes&source=bl&ots=PGW_0KcI5l&sig=ACfU3U1JpVwvQLbllLtu_OEr9pHRtObkUQ&hl=en&sa=X&ved=2ahUKEwjl0NW3sq_iAhXR-KQKHUJaBRsQ6AEwAHoECAgQAQ#v=onepage&q&f=false	 
+            </li>
+            <li>
+              [7] ISO Register (2019) <i>Informatie over de ISO Normen</i>
+              <br />Geraadpleegd op: 20-05-2019, van:
+              https://isoregister.nl/informatie-over-de-iso-normen/
+            </li>
+            <li>
+              [8] Riemer-Reiss, M.L. (1999). <i>Assistive technology use and abandonment among college students with disabilities</i>
+              <br />Geraadpleegd op 21-05-2019, van:
+              https://www.researchgate.net/publication/289885567_Assistive_technology_use_and_abandonment
+            </li>
+            <li>
+              [9] Abdulkader, S.N., Atia, A., Mostafa, M.S.M. (2015). <i>Brain computer interfacing: Applications and challenges</i>
+              <br />Geraadpleegd op 23-05-2019, van:
+              https://www.sciencedirect.com/science/article/pii/S1110866515000237
+            </li>
+            <li>
+              [10] MedGadget Editors (2011). <i>XWave EEG Brain Computer Interface for Your iPhone/iPad</i>
+              <br />Geraadpleegd op 24-05-2019, van:
+              https://www.medgadget.com/2011/01/xwave_eeg_brain_computer_interface_for_your_iphoneipad.html
+            </li>
+            <li>
+              [11] Chin-Teng, L., Bor-Shyh, L., Fu-Chang L., Che-Jui, C. (2012). <i>Brain Computer Interface-Based Smart Living Environmental Auto-Adjustment Control System in UPnP Home Networking</i>
+              <br/>Geraadpleegd op 24-05-2019, van:
+              https://infonet.gist.ac.kr/wp-content/uploads/2014/03/JC_App_2013.03.pdf
+            </li>
+            <li>
+              [31] Milan, J., Carmena, J. (2010). <i>Invasive or Noninvasive: Understanding Brain-Machine Interface Technology</i>
+              <br />Geraadpleegd op 29-05-2019, van:
+              https://ieeexplore.ieee.org/document/5415990
+            </li>
+            <li>
+              [32] Gonfalonieri, A. (2018). <i>A Beginner’s Guide to Brain-Computer Interface and Convolutional Neural Networks</i>
+              <br />Geraadpleegd op 29-05-2019, van:
+              https://towardsdatascience.com/a-beginners-guide-to-brain-computer-interface-and-convolutional-neural-networks-9f35bd4af948
+            </li>
+            <li>
+              [33] Bergmeister, K. et al. (2017). <i>Broadband Prosthetic Interfaces: Combining Nerve Transfers and Implantable Multichannel EMG Technology to Decode Spinal Motor Neuron Activity</i>
+              <br />Geraadpleegd op 30-05-2019, van:
+              https://www.frontiersin.org/articles/10.3389/fnins.2017.00421/full
+            </li>
+
+          </ul>
+        </p>
       </Content>
     </Root>
   )
