@@ -59,12 +59,12 @@ const HersenenDetail: React.FC<IProps> = (props) => {
           Door deze samenwerking kan het apparaat signalen ontvangen die afkomstig zijn vanuit het brein.
           Deze signalen kunnen worden omgezet naar instructies voor het apparaat.
           Hierdoor is het bijvoorbeeld mogelijk om tekst te schrijven op een beeldscherm, of om een prothetisch ledemaat te bewegen door er alleen maar bewust over na te denken.
-          Door het omzetten van de signalen uit het brein naar elektrische golven, kan het apparaat de wensen van de gebruiker interpreteren en de juiste actie uitvoeren.
+          Door het omzetten van de signalen uit het brein naar elektrische golven kan het apparaat de wensen van de gebruiker interpreteren en de juiste actie uitvoeren.
         </p>
 
         <p>	
           Maar goed, hoe krijgen we precies zo’n verbinding tussen brein en apparaat tot stand? 
-          Daar zijn over het algemeen twee manieren voor [6, p.52]: tijdelijk een uitwendige kap/pet op het hoofd gebruiken tijdens de interactie met het apparaat (zie rechts), 
+          Daar zijn over het algemeen twee manieren voor [6, p.52]: tijdelijk een uitwendige kap/pet op het hoofd gebruiken tijdens de interactie met het apparaat (zie animatie hieronder), 
           of vrijwel permanent een inwendig stukje computerapparatuur in het hoofd brengen dat direct de hersenactiviteit kan meten. 
         </p>
 
@@ -118,7 +118,7 @@ const HersenenDetail: React.FC<IProps> = (props) => {
 
         <p>
           Bij een verlamming kan het brein de spieren geen instructies meer geven om het lichaam te laten bewegen. 
-          Een brein-computer aansluitpunt kan dit wel doordat signalen direct aan de prothesen wordt doorgegeven via een elektrische ontvanger aan de prothese [9][32]. 
+          Een brein-computer aansluitpunt kan dit wel doordat signalen direct aan de prothesen worden doorgegeven via een elektrische ontvanger aan de prothese [9][32]. 
           Simpel gezegd springen de wensen van de gebruiker direct vanuit het brein naar deze ontvanger. 
           Op zijn beurt krijgt de prothese de juiste instructies van de ontvanger. Hierdoor zal de prothese de gewenste beweging maken.
         </p>
@@ -143,7 +143,7 @@ const HersenenDetail: React.FC<IProps> = (props) => {
         <p>
           Dat gezegd hebbende, zijn er wel studies gedaan naar de gebruikerservaring van verschillende brein-computer aansluitingspunten [6][9].
           In een van deze studies is gekeken naar de volgende drie kwaliteitskenmerken van een BCA. Deze kenmerken behoren tot een standaarddefinitie (genaamd ISO [7]) op het gebied van kwaliteit.
-          Hier werd op gelet: prestatie, mentale belasting en voldoening, van de niet-gehandicapte testpersonen bij gebruik van de BCA.
+          Hier werd op gelet: prestatie, mentale belasting en voldoening van de niet-gehandicapte testpersonen bij gebruik van de BCA.
           Tijdens de meting werden vragen gesteld als: hoe snel leert een persoon de technologie te gebruiken?
           Hoe snel kan een gebruiker met het apparaat zijn doel bereiken? En hoe voelt de gebruiker zich daarbij?
         </p>
