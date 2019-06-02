@@ -51,7 +51,7 @@ const OgenDetail: React.FC<IProps> = (props) => {
         <p>
           Camera’s kunnen <i>wel</i> infrarood licht zien. Als er een foto wordt gemaakt wanneer het infrarood licht in de ogen schijnt, kunnen wij een reflectie zien van dit infrarode licht. 
           Deze reflecties zijn erg belangrijk omdat deze de nodige informatie verschaffen en een beginpunt vormen voor de oogmeter. 
-          In deze fotos kunnen namelijk de hoeken van de reflecties van het infrarode licht waar worden genomen (zie afbeelding hieronder). 
+          In deze foto's kunnen namelijk de hoeken van de reflecties van het infrarode licht waar worden genomen (zie afbeelding hieronder). 
           Het door de camera opgenomen beeld wordt vervolgens gebruikt om de reflectie van de lichtbron op het hoornvlies en in de pupil te identificeren.
         </p>
         <img style={{width:300, height:250}} src={plaatje2}/>
@@ -104,7 +104,7 @@ const OgenDetail: React.FC<IProps> = (props) => {
         <p><i>Voorbeeld van een apparaat speciaal gemaakt voor oogbesturing. Let op de grote knoppen, waardoor interactie optimaal is.</i></p>
 
         <p>
-          Een persoon met een handicap kan veel taken uitvoeren via een computer die hen helpt om effectiever te communiceren en een voller en onafhankelijker leven te leiden. 
+          Een persoon met een handicap kan veel taken uitvoeren via een computer die hem of haar helpt om effectiever te communiceren en een voller en onafhankelijker leven te leiden. 
           Taken die deze technologie mogelijk maakt, omvatten de mogelijkheid om te communiceren via dicteersoftware, op internet te surfen, te telefoneren, e-mails en sms-berichten te verzenden, illustraties te maken, computerspelletjes te spelen en contact te houden met vrienden en familie via Skype of Facebook.
         </p>
         <img style={{width:300, height:250}} src={plaatje5}/>
