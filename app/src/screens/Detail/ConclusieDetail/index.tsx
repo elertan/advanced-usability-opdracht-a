@@ -117,8 +117,12 @@ const ConclusieDetail: React.FC<IProps> = (props) => {
 
         <h2>Antwoord op de hoofdvraag</h2>
         <p>
-          Apparaten moeten de taal, gebaren, geluiden, bewegingen van de mens beter leren begrijpen, meer onderzoeken, 
-          meer experimentern blabla,,...
+          Het probleem van digibeten is vaak dat zij geïntimideerd raken door de nieuwste technologieën. 
+          Echter kan dit ook komen door een gebrek aan interesse of aan de hoge leer drempel om met deze technologie aan de slag te gaan. Nuis kunnen hier te hulp schieten zodat digibeten deze angsten kunnen overwinnen. 
+          Het doel van een natuurlijke gebruikersinterface is om een intuïtieve en organische interactie te hebben tussen gebruiker en technologie, met de nadruk op eenvoud. 
+          Gebruikers hoeven dus geen computerexpert te zijn om met een nui aan de slag te gaan, het is speciaal gedesigned voor "natuurlijke” interacties. 
+          Door deze technologische evolutie zou de drempel lager moeten zijn voor digibeten om met nieuwe technologie aan de slag te gaan. 
+          In plaats van met een muis, keyboard, controller of touchscreen kunnen digibeten systemen besturen met menselijke interacties.
         </p>
         
       </Content>
