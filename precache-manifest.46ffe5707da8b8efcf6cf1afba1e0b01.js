@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de425340d307f8255ac11e76917bac28",
+    "revision": "ecbba037bb16a8805cb7ae27fdb1543a",
     "url": "/advanced-usability-opdracht-a/index.html"
   },
   {
-    "revision": "ff63359143a4d07a9761",
-    "url": "/advanced-usability-opdracht-a/static/js/2.927cf66a.chunk.js"
+    "revision": "487e0083052682f1720a",
+    "url": "/advanced-usability-opdracht-a/static/js/2.d8af54b4.chunk.js"
   },
   {
-    "revision": "41655186ddf8eab75398",
-    "url": "/advanced-usability-opdracht-a/static/js/main.762f8721.chunk.js"
+    "revision": "2d424ea2c25c232d68b6",
+    "url": "/advanced-usability-opdracht-a/static/js/main.f8ed33ac.chunk.js"
   },
   {
     "revision": "b4f345e1345ac36b7500",
@@ -54,6 +54,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9f813a971921053c52c5dd1f8b0b12c6",
     "url": "/advanced-usability-opdracht-a/static/media/bca-xwave-vrouw.9f813a97.png"
+  },
+  {
+    "revision": "e9fd0f93d863d6d1082648ff605e2aa0",
+    "url": "/advanced-usability-opdracht-a/static/media/bmpic1.e9fd0f93.jpg"
+  },
+  {
+    "revision": "639c7c3f15283b9510d7cd7a7b6e4eb9",
+    "url": "/advanced-usability-opdracht-a/static/media/bmpic3.639c7c3f.jpg"
+  },
+  {
+    "revision": "b7eb8b7674d2ffd274f0e70d62998296",
+    "url": "/advanced-usability-opdracht-a/static/media/bmpic5.b7eb8b76.jpg"
+  },
+  {
+    "revision": "d7b1c5a49a41d3775fa9c39711411a9a",
+    "url": "/advanced-usability-opdracht-a/static/media/bmpic6.d7b1c5a4.jpg"
+  },
+  {
+    "revision": "6e2ad5aa7a83581853523eb46e9f0f8a",
+    "url": "/advanced-usability-opdracht-a/static/media/bmpic7.6e2ad5aa.jpg"
+  },
+  {
+    "revision": "473204e03ec6f3cd8760129a9a06f8de",
+    "url": "/advanced-usability-opdracht-a/static/media/bmpic8.473204e0.jpg"
   },
   {
     "revision": "047bf014d668cf8d4c6448fb02b46a5a",
@@ -108,12 +132,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advanced-usability-opdracht-a/static/media/n4.b34c3136.jpg"
   },
   {
-    "revision": "d3c88b2d780a87686045f75274eb4297",
-    "url": "/advanced-usability-opdracht-a/static/media/n420.d3c88b2d.jpg"
-  },
-  {
     "revision": "620465a44daa59f86d545dc0b7ab97fe",
     "url": "/advanced-usability-opdracht-a/static/media/n5.620465a4.jpg"
+  },
+  {
+    "revision": "d113e8629b71c57ef16b089a76ab15e8",
+    "url": "/advanced-usability-opdracht-a/static/media/n7.d113e862.gif"
   },
   {
     "revision": "be2a0252260a5daf8a4f08c58410bfb9",
