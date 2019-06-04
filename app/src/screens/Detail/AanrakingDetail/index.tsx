@@ -76,6 +76,25 @@ const AanrakingDetail: React.FC<IProps> = (props) => {
           Sinds dat de mobiele telefoon met aanraakscherm op de markt is gebracht, is het gebruik van aanraking als NUI flink gestegen.
           Bijna iedereen bezit sindsdien wel minimaal één apparaat dat met alleen vingeraanrakingen kan worden bestuurd.
         </p>
+   
+        <h2>Conclusie</h2>
+        <p>
+          Aanraaktechnologie bestaat vooral uit het aanraken met de vingers of het maken van vingerpatronen op een beeldscherm, om zo een instructie te geven aan het apparaat. 
+          Het wordt vooral veel gebruikt bij <i>smartphones</i>, tablets en pin -en betalingsautomaten.
+        </p>
+        <p>
+          Aanraakbeeldschermen bestaan in drie varianten: weerhoudende, capacitieve en lichtintensiteit metende beeldschermen.
+        </p>
+        <p>
+          Weerhoudende schermen werken op basis van druk en vervorming: een lokale aanraking zorgt voor een lokale verzakking van het beeldscherm waardoor een bepaalde instructie wordt doorgegeven. 
+          Deze instructie is dus afhankelijk van de aangeraakte plek. Capacitieve schermen werken op basis van verstoring van het elektrische veld dat voortdurend over het scherm loopt. 
+          Bij aanraking treedt een lokale verstoring op en dat staat gelijk aan een bepaalde instructie voor het apparaat. Licht-intensieve schermen werken ook op basis van verstoring maar dan op het gebied van verschil in lichtval op het scherm. 
+          Door een aanraking is er lokaal minder lichtval op het scherm, en ook hier staat dit gelijk aan een bepaalde instructie naar het apparaat.
+        </p>
+        <p>
+          Aanraakschermen hebben vooral bij telefoons voor een grote opschudding gezorgd. Doordat het zo natuurlijk aanvoelt, zijn veel apparaten hierdoor gebruiksvriendelijker. 
+          Dit blijkt uit de massale adoptie van smartphones onder alle leeftijdsgroepen.
+        </p>
 
         <h2>Bronnen</h2>
         <ul className="bron">

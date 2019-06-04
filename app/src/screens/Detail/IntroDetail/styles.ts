@@ -41,4 +41,13 @@ export const Content = styled.div`
   img {
     margin: 10px;
   }
+  ul.bron {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+    li {
+    margin-bottom: 25px;
+     }
+   }
 `;

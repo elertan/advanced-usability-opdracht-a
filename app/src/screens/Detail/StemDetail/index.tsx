@@ -137,7 +137,7 @@ const StemDetail: React.FC<IProps> = (props) => {
         aan de gebruiker te laten horen, zou minder gebruiksvriendelijk zijn en ook te lang duren. Daarom is in sommige gevallen spraakherkenning
         niet zo gebruiksvriendelijk als wanneer je een scherm zou gebruiken.
         </p>
-        <h2>Hoe kun je het minder confronterend maken voor digibeten?</h2>
+        <h2>Hoe kunnen bestaande technologieën hiermee toegankelijker worden?</h2>
         <p>
         Uit een onderzoek is gebleken dat mensen meer dan tachtig procent de communicatie via het zichtvermogen ervaren. 
         Elf procent via het gehoorsysteem, en de rest via geur, smaak, etc. [19]. Het is dus logisch dat schermen onmisbaar zijn in de meeste gevallen. 
@@ -161,6 +161,19 @@ const StemDetail: React.FC<IProps> = (props) => {
         Deze twee gecombineerd kan leiden tot een optimale gebruikerservaring. Wanneer experts deze elementen ontwerpen met de gebruiker 
         in gedachten, wordt het iets veel meer dan een mens die zijn apparaat gebruikt. Het wordt een ervaring, een gesprek, 
         een diep persoonlijke interactie die het gebruik definiëert.
+        </p>
+
+        <h2>Conclusie</h2>
+        <p>
+          Met gebruik van spraakherkenningssystemen kunnen we onze stem gebruiken om instructies te geven aan apparaten. 
+          Dit bespaart ons de moeite om met niet-intuïtieve  knoppen te werken of zelfs naar het apparaat toe te lopen om deze te bedienen. 
+          Doordat het gebruik van gesproken instructies voor ons intuïtief aanvoelt, vergroot dit in het algemeen de gebruiksvriendelijkheid van apparaten. De technologie stelt het ook minder-validen, zoals ouderen en gehandicapten, in staat om apparaten te bedienen die anders buiten hun grenzen liggen. 
+          Dit ligt niet alleen aan een verhoogde gebruiksvriendelijkheid voor digibeten, maar ook door een hogere toegankelijkheid doordat mensen met mobiliteitsproblemen alsnog interactie kunnen hebben met bijvoorbeeld televisies of delen van het huis (in het geval van <i>smart homes</i>).
+          </p>
+        <p>
+          Spraakherkenningssystemen bestaan uit twee soorten spraakherkenningsprogramma’s: beperkte systemen met een kleine vocabulaire bestemd voor een grote groep gebruikers, en meer geavanceerde systemen met een grote woordenschat en zelflerend vermogen bestemd voor de zakelijke sfeer. 
+          Laatstgenoemde systeemvorm wordt vooral gebruikt in de populaire producten op dit gebied voor de thuisomgeving, afkomstig van Amazon en Google, respectievelijk de Echo Dot en Alexa. 
+          Het <i>Hidden Markov-model</i> vormt het onderliggende model voor deze geavanceerde spraakherkenningssystemen.
         </p>
 
         <h2>Gebruikte bronnen</h2>

@@ -217,6 +217,32 @@ const HersenenDetail: React.FC<IProps> = (props) => {
 
         <p><i><b>Links:</b> signalen worden gestuurd vanuit het brein en worden onderweg omgevormd tot een (digitale) vorm die te interpreteren is voor (medische) hulpmiddelen. <b>Rechts:</b> een rolstoelgebruiker met een XWave, waarmee hersensignalen via de iPhone naar de rolstoel kunnen.</i></p>
 
+
+        <h2>Conclusie</h2>
+        <p>
+          Brein-computer aansluitpunten (BCAs) zijn vooralsnog enorm innovatief en bevinden zich in de experimentele fase. 
+          Er zijn praktisch nog geen toepassingen voor de gemiddelde burger om aan te schaffen. De <i>XWave</i> komt wel het meest dichtbij: een commercieel product in de vorm van een koptelefoon die gekoppeld kan worden aan de iPhone. 
+          De koptelefoon meet de hersenactiviteit en voert deze gegevens door naar de verbonden telefoon, waarna deze weer kunnen worden doorgevoerd naar speciaal gemaakte apps voor verschillende doeleinden (bijvoorbeeld meditatietraining).
+        </p>
+        <p>
+          De werking van BCAs zijn gebaseerd op het meten van de hersenactiviteit van de gebruiker. 
+          Deze hersensignalen worden omgevormd naar een digitale vorm die te interpreteren is voor verbonden elektrische apparaten, en waaruit instructies kunnen worden gehaald voor deze apparaten. 
+          Deze werkwijze stelt ons in staat om apparaten te bedienen door middel van onze gedachten; dat wil zeggen dat we alleen maar aan een specifieke actie hoeven te denken waarna het verbonden apparaat deze actie als een instructie uitvoert.
+        </p>
+        <p>
+          Doordat we met onze gedachten apparaten kunnen besturen, vergroot dit in theorie de toegankelijkheid en gebruiksvriendelijkheid van veel apparaten. 
+          Niks voelt meer intuïtief dan alleen maar denken aan de actie die moet worden uitgevoerd. 
+          De praktijk wijst echter uit dat er nog veel moet worden gedaan om zowel de functionaliteit als het gebruikscomfort naar een acceptabel niveau te brengen, wilt de technologie algemene acceptatie krijgen. 
+          BCAs beloven echter vooral veel op het gebied van (medische) hulpmiddelen voor verlamde mensen. 
+          Zo kan een volledig verlamd persoon weer communiceren via een computer en bewegen via een mentaal gestuurde rolstoel of prothesen.
+        </p>
+        <p>
+          Aansluitingsvormen van BCAs zijn er in twee varianten: inwendig en uitwendig. 
+          Een inwendige aansluiting houdt in dat er computerchips <i>in</i> het brein worden geplant. 
+          De uitwendige vorm is minder extreem en betreft een pet of kap die opgezet kan worden tijdens de interactie met een apparaat. 
+          Het hoofddeksel kan dan de hersensignalen uitlezen.
+        </p>
+
         <h2>Gebruikte bronnen</h2>
         <p>
           <ul className="bron">

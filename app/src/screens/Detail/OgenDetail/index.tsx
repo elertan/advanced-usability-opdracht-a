@@ -141,7 +141,27 @@ const OgenDetail: React.FC<IProps> = (props) => {
           Door deze systemen kunnen zij weer zelfstandig communiceren. Helaas zijn de kosten voor deze system nog er hoog. 
           In de toekomst zal deze apparatuur toegankelijker zijn voor deze doelgroep, wanneer de prijzen gaan dalen. 
        </p>
-
+       <h2>Conclusie</h2>
+        <p>
+          Oogmeters kunnen worden gebruikt om informatie uit de oogbewegingen van een gebruiker te halen. 
+          Deze informatie kan worden gebruikt om bijvoorbeeld websites te verbeteren qua gebruiksvriendelijkheid, maar ook om hieruit instructies te interpreteren voor apparaten.
+        </p>
+        <p>
+          Oogmeters winnen informatie door gebruik te maken van de reflectie hoeken van het infrarode licht dat zij voortdurend uitzenden in de ogen van de gebruiker. 
+          Hiervoor bestaan oogmeters altijd uit een lichtbron en een camera. 
+          Uiteindelijk kunnen alle richtingen van het kijkveld van de gebruiker binnen een bepaalde periode in kaart worden gebracht. 
+          Simpel gezegd: we weten dan waar de gebruiker naar kijkt of heeft gekeken binnen een bepaalde periode.
+        </p>
+        <p>
+          Deze informatie kan dus ook gebruikt worden voor het besturen van apparaten. 
+          We kunnen door onze blik te richten op een bepaald deel van een computerscherm, de computer duidelijk maken dat we willen interacteren met iets op dat deel van het scherm. 
+          Op deze manier kunnen we opties kiezen, beslissingen maken of programma’s starten.
+        </p>
+        <p>
+          De techniek maakt het mogelijk voor mensen met een motorische beperking, of een volledige verlamming, om alsnog te interacteren met een apparaat. 
+          De techniek is momenteel prijzig maar dat neemt niet weg dat het de zelfredzaamheid van deze mensen zal vergroten. 
+          Ook de minder technisch vaardigden onder ons kunnen er baat bij hebben: uit een onderzoek is gebleken dat de proefpersonen sterk de voorkeur hadden voor het computersysteem zonder muis en toetsenbord, maar een met oogbesturing.
+        </p>
 
         <h2>Bronnen</h2>
         <p>

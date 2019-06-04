@@ -71,17 +71,28 @@ const IntroDetail: React.FC<IProps> = (props) => {
               <li>Hoe werkt de achterliggende techniek?</li>
               <li>Voor welke toepassingen wordt het gebruikt?</li>
               <li>Hoe gebruiksvriendelijk zijn Nui’s?</li>
-              <li>Hoe kun je bestaande technologie minder confronterend maken?</li>  
+              <li>Hoe kunnen bestaande technologieën hiermee toegankelijker worden?</li>  
           </ul>
+         
         </p>
         <p>
         De eerste twee deelvragen beschrijven de <i>actuele technologie</i> en de laatste twee deelvragen de <i>usability en 
         gebruikerservaring van NUI.</i>
         </p>
-        <h2>Bronnen</h2>
         <p>
-        参照はここに入れてください。
+        Bij de laatste deelvraag worden aanbevelingen gedaan om de betreffende technologie toegankelijker te maken voor digibeten.
         </p>
+        <h2>Bronnen (Inleiding)</h2>
+        <ul className="bron">
+            <li>
+            [1] CBS (2019). <i>Zes procent nooit op internet</i>
+            <br/>
+            Geraadpleegd op: 13-05-2019, van:
+            https://www.cbs.nl/nl-nl/nieuws/2019/01/zes-procent-nooit-op-internet
+            </li>
+        </ul>
+       
+        
       </Content>
     </Root>
   )

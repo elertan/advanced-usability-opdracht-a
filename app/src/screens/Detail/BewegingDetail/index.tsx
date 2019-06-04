@@ -103,7 +103,7 @@ const BewegingDetail: React.FC<IProps> = (props) => {
         <img style={{width:300, height:200}} src={pic8} />
         <p><i>De Samsung Smart TV, waarbij de gebruiker met een open hand door het menu navigeert.</i></p>
 
-        <h2>Hoe kan je het minder confronterend maken voor digibeten?</h2>
+        <h2>Hoe kunnen bestaande technologieën hiermee toegankelijker worden?</h2>
         <p>Mensen bewegen, dat is normaal. Mensen moeten hun energie kwijt, of maken gebaren voor communicatie. 
           Door deze behoefte te integreren met apparatuur, zoals tv’s, zorgt dit ervoor dat mensen die er minder verstand van hebben toch makkelijk gebruik kunnen
           maken van het apparaat in kwestie.</p>
@@ -114,6 +114,21 @@ const BewegingDetail: React.FC<IProps> = (props) => {
           Maar uiteindelijk kunnen we deze technologie ook uitbreiden naar andere sectoren dan entertainment. Zo kunnen bijvoorbeeld
           meerdere mensen een computer gebruiken zonder daarvoor een toetsenbord of muis te delen.</p>
 
+          <h2>Conclusie</h2>
+        <p>
+          Bewegingsbesturing maakt het mogelijk om apparaten te besturen door bepaalde bewegingen of veranderingen in bewegingspatronen te veroorzaken. 
+          Deze beweging wordt gemeten via verschillende sensoren: infrarood, microgolf en ultrasonisch of tomografische sensoren. 
+          Een combinatie is ook mogelijk, en noodzakelijk want alle technieken hebben voor -en nadelen.
+        </p>
+        <p>
+          Bewegingssensoren worden al gebruikt in de beveiligingsbranche en multimediasystemen. Vooral de <i>entertainment</i> industrie maakt gebruik van deze techniek: spelcomputers als de Nintendo Wii en de Xbox Kinect maar ook de filmsector maken gebruik van <i>motion sensing</i> voor verschillende doeleinden. 
+          Spelcomputers maken zo een extra vorm van interactie mogelijk met hun systemen en de spellen. 
+          De filmindustrie gebruikt het om kant-en-klare animaties te winnen voor gebruik in (animatie)films door het gebruik van acteurs met <i>motion capture</i> uniformen.
+        </p>
+        <p>
+          Doordat beweging voor een mens heel intuïtief is, draagt deze techniek ook bij aan de gebruiksvriendelijkheid en toegankelijkheid van apparaten die ervan gebruikmaken. 
+          De Nintendo Wii was een pionier op dit gebied en was simpel in gebruik. Samsung heeft met zijn Smart TV een product op de markt gebracht en bewezen dat het mogelijk is om door menu’s te navigeren met alleen een paar handbewegingen
+        </p>
         <h2>Bronnen</h2>
         <p>
         <ul className="bron">
